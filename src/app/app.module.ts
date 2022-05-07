@@ -9,12 +9,14 @@ import { HeaderComponent } from './layouts/header/header.component';
 import {ExtendedModule, FlexModule} from "@angular/flex-layout";
 
 import { HttpClientModule } from '@angular/common/http';
+import {AdminComponent} from "./admin/admin.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     HeaderComponent,
+      AdminComponent
     
   ],
     imports: [
