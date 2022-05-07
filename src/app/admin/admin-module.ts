@@ -6,6 +6,7 @@ import {AdminService} from "../services/admin-service";
 import {BrowserTestingModule} from "@angular/platform-browser/testing";
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
+import {FlexLayoutModule} from "@angular/flex-layout";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import {CommonModule} from "@angular/common";
 
 
         RouterModule,
-        BrowserModule
+        BrowserModule,
+        FlexLayoutModule
 
     ],
 

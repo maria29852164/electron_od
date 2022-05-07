@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import {ExtendedModule, FlexModule} from "@angular/flex-layout";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import {ExtendedModule, FlexModule} from "@angular/flex-layout";
         AppRoutingModule,
         BrowserModule,
         FlexModule,
-        ExtendedModule
+        ExtendedModule,
+        HttpClientModule
+
     ],
   providers: [],
   bootstrap: [AppComponent]
