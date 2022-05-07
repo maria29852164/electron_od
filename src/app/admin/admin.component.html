@@ -1,6 +1,7 @@
 <div class="container-fluid">
-  <table class="table table-hover">
-    <thead>
+  <div class="container mt-5">
+    <table class="table table-hover">
+      <thead>
       <tr>
         <th scope="col">ID</th>
         <th scope="col">Name</th>
@@ -8,8 +9,8 @@
         <th scope="col">Email</th>
 
       </tr>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
       <tr *ngFor="let user of admins">
         <th scope="row">Default</th>
         <td>{{user.name}}</td>
@@ -19,25 +20,27 @@
       </tr>
 
 
-    </tbody>
-  </table>
-  <div fxLayoutAlign="center center" class="paginator">
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-      <div class="btn-group me-2" role="group" aria-label="First group">
-        <button type="button" class="btn btn-secondary">1</button>
-        <button type="button" class="btn btn-secondary">2</button>
-        <button type="button" class="btn btn-secondary">3</button>
-        <button type="button" class="btn btn-secondary">4</button>
-      </div>
-      <div class="btn-group me-2" role="group" aria-label="Second group">
-        <button type="button" class="btn btn-secondary">5</button>
-        <button type="button" class="btn btn-secondary">6</button>
-        <button type="button" class="btn btn-secondary">7</button>
-      </div>
-      <div class="btn-group" role="group" aria-label="Third group">
-        <button type="button" class="btn btn-secondary">8</button>
+      </tbody>
+    </table>
+    <div fxLayoutAlign="center center" class="paginator">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-secondary">5</button>
+          <button type="button" class="btn btn-secondary">6</button>
+          <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-secondary">8</button>
+        </div>
       </div>
     </div>
   </div>
+
 
 </div>

@@ -15,7 +15,7 @@ export class AdminComponent implements OnInit {
 
   ngOnInit(): void {
     this.adminService.getAdmins().subscribe((data:  any)=> {
-      this.admins = data;
+      this.admins = data.slice(0,10);
       console.log(this.admins);
 
     })
