@@ -7,7 +7,11 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import {ExtendedModule, FlexModule} from "@angular/flex-layout";
+<<<<<<< HEAD
 import {HttpClientModule} from "@angular/common/http";
+=======
+import { HttpClientModule } from '@angular/common/http';
+>>>>>>> d665ca3a4425351746ddd88f5bf772b4ec05d575
 
 @NgModule({
   declarations: [
@@ -22,7 +26,6 @@ import {HttpClientModule} from "@angular/common/http";
         FlexModule,
         ExtendedModule,
         HttpClientModule
-
     ],
   providers: [],
   bootstrap: [AppComponent]
