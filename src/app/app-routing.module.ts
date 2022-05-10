@@ -4,7 +4,6 @@ import { AppComponent } from './app.component'
 import { UserComponent } from './user/user.component'
 import {AdminComponent} from "./admin/admin.component";
 import { AdminDetailComponent } from './admin-detail/admin-detail.component';
-
 import {DetailUserComponent} from "./detail-user/detail-user.component";
 const routes: Routes = [
   {
@@ -13,7 +12,6 @@ const routes: Routes = [
   },
   {
     path:'admins',
-
     component: AdminComponent,
 
   },

@@ -10,9 +10,7 @@ import {ExtendedModule, FlexModule} from "@angular/flex-layout";
 
 import { HttpClientModule } from '@angular/common/http';
 import {AdminComponent} from "./admin/admin.component";
-
 import { AdminDetailComponent } from './admin-detail/admin-detail.component';
-
 import { DetailUserComponent } from './detail-user/detail-user.component';
 
 @NgModule({
@@ -22,9 +20,7 @@ import { DetailUserComponent } from './detail-user/detail-user.component';
     HeaderComponent,
       AdminComponent,
       AdminDetailComponent,
-
       DetailUserComponent
-    
   ],
     imports: [
         AppRoutingModule,
