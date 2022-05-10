@@ -10,13 +10,15 @@ import {ExtendedModule, FlexModule} from "@angular/flex-layout";
 
 import { HttpClientModule } from '@angular/common/http';
 import {AdminComponent} from "./admin/admin.component";
+import { AdminDetailComponent } from './admin-detail/admin-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     HeaderComponent,
-      AdminComponent
+      AdminComponent,
+      AdminDetailComponent
     
   ],
     imports: [
