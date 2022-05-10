@@ -1,4 +1,12 @@
 .txt{
     width: 400px;
-    justify-content: center;
+    
+    
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+    
 }
