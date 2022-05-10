@@ -14,7 +14,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
 this.userService.getUsers().subscribe((data:  any)=> {
-      this.users = data;
+      this.users = data.slice(0,10);
       console.log(this.users);
 
     })

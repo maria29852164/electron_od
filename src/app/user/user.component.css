@@ -4,3 +4,19 @@
 .container{
   margin-top: 40px;
 }
+.reload{
+  animation: rotate infinite 1.5s;
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.loading{
+  position: relative;
+  top: 300px;
+}

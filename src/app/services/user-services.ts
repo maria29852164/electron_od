@@ -9,4 +9,9 @@ export class UserService {
 getUsers(){
   return this.http.get("https://digimon-api.herokuapp.com/api/digimon")
 }
+getUserDetailById(id:string | undefined):Promise<any>{
+    return this.http.get(`https://digimon-api.herokuapp.com/api/digimon/name/${id}`).toPromise().then((res)=>{
+      return res;
+  });
+}
 }
