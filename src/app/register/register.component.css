@@ -1,0 +1,11 @@
+.container_1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.txt_titulo{
+    padding-left: 100px;
+}
+
+

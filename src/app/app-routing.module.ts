@@ -4,7 +4,9 @@ import { AppComponent } from './app.component'
 import { UserComponent } from './user/user.component'
 import {AdminComponent} from "./admin/admin.component";
 import { AdminDetailComponent } from './admin-detail/admin-detail.component';
+
 import {DetailUserComponent} from "./detail-user/detail-user.component";
+import { RegisterComponent } from './register/register.component';
 const routes: Routes = [
   {
     path:'user',
@@ -18,11 +20,15 @@ const routes: Routes = [
   {
     path:'admin-detail',
     component:AdminDetailComponent
-
+  
   },
   {
     path:'detail-user/:name',
     component: DetailUserComponent
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
   }
   
 ]
