@@ -8,18 +8,28 @@ import { UserComponent } from './user/user.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import {ExtendedModule, FlexModule} from "@angular/flex-layout";
 
+import { HttpClientModule } from '@angular/common/http';
+import {AdminComponent} from "./admin/admin.component";
+import { AdminDetailComponent } from './admin-detail/admin-detail.component';
+import { DetailUserComponent } from './detail-user/detail-user.component';
+import { RegisterComponent } from './register/register.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     HeaderComponent,
-    
+      AdminComponent,
+      AdminDetailComponent,
+      DetailUserComponent,
+      RegisterComponent
   ],
     imports: [
         AppRoutingModule,
         BrowserModule,
         FlexModule,
-        ExtendedModule
+        ExtendedModule,
+        HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

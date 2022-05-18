@@ -1,1 +1,77 @@
-<p>user works!</p>
+<div class="container">
+  <div class="container-fluid">
+    <div class="container loading" *ngIf="!users">
+    <h3 class="h3 text-center my-3">Cargando</h3>
+    <div class="text-center reload" >
+
+      <svg  xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-repeat"
+            viewBox="0 0 16 16">
+        <path
+                d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
+        <path fill-rule="evenodd"
+              d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
+      </svg>
+    </div>
+    </div>
+
+    <div class="container-search">
+      <form *ngIf="users" class="d-flex">
+        <input class="form-control me-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success disabled my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+    </div>
+
+    <table *ngIf="users" class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Level</th>
+          <th scope="col">Email</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <th scope="row">Default</th>
+          <td>{{user.name}}</td>
+          <td>{{user.level}}</td>
+          <td>{{user.img}}</td>
+          <td>
+            <a class="nav-link" [routerLink]="['/detail-user',user.name]" class="text-secondary">detail user</a>
+            </td>
+
+        </tr>
+
+
+      </tbody>
+    </table>
+    <div *ngIf="users" fxLayoutAlign="center center" class="paginator">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">&laquo;</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">5</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">&raquo;</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>

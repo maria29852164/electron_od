@@ -1,0 +1,27 @@
+.txt{
+    width: 250px;
+    
+    
+}
+
+.container-usuario{
+    padding: 1.5rem;
+}
+
+.txt_titulo{
+    margin-left: 50px;
+    font-size: 40px;
+    color: rgb(88, 81, 81);
+}
+
+.container{
+    
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.container_papa{
+    display: flex;
+    justify-content: center;
+}
