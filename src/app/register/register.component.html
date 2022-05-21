@@ -1,8 +1,8 @@
 <div class="container-fluid">
     
     <div class="row container_1">
-    <div class="col-md-4 card   box">
-        <h1 class="txt_titulo">Usuario</h1>
+    <div class="col-md-6 col-sm-12 card   box">
+        <h1 class="txt_titulo my-3 ">Paciente</h1>
         <form action="" class="form-client" >
             <div class="form-group txt">
                 <label for="nombre" class="form-label">Nombre</label>
@@ -24,24 +24,93 @@
             <div class="form-group my-3 txt">
                 <label for="telefono" class="form-label">Telefono</label>
                 <input type="text" name="telefono" class="form-control">
+            </div>          
+            <div class="form-group my-3 txt">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="text" name="celular" class="form-control">
+            </div><br>
+            <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                <label for="example">Naciemiento</label>
+                <input placeholder="Select date" type="date" id="example" class="form-control">
+                <i class="fas fa-calendar input-prefix"></i>
+              </div>
+              <div class="form-group my-3 txt">
+                <label for="ocupacion" class="form-label my-3">Edad</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
             </div>
             <div class="form-group my-3 txt">
-                <label for="ubicacion" class="form-label my-3">Ubicacion</label>
-                <select name="ubicacion" id="">
-                    <option value="San Cristobal">San Cristobal</option>
-                    <option value="San Cristobal">palmira</option>
-                    <option value="San Cristobal">caneyes</option>
-                    <option value="San Cristobal">barrio obrero</option>
-                </select>
+                <label for="ubicacion" class="form-label my-3">Ubicacion</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
             </div>
-            <div class="form-group txt">
-                <label for="fecha_nacimiento" class="form-label my-3">Fecha de Naciemiento</label>
-                <input type="date" name="fecha_nacimiento">
+            <div class="form-group my-3 txt">
+                <label for="ocupacion" class="form-label my-3">Ocupacion</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
             </div>
+            <div>
+                <h3 class="txt_titulo mr-5">Referido</h3>
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="Odontologo" class="form-label">Odontologo</label>
+                <input type="text" name="Odontologo" class="form-control">
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="Consultorio" class="form-label">Consultorio</label>
+                <input type="text" name="Consultorio" class="form-control">
+            </div><br>
         </form>
     </div>
-    <div class="col-md-4 card  box">
-        <h1 class="txt_titulo">Usuario</h1>
+    <div class="col-md-6  col-sm- 12  card  box">
+        <h1 class="txt_titulo1">Padre</h1>
+        <form action="" class="form-client" >
+            <div class="form-group txt">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" name="nombre" class="form-control">
+            </div>
+               
+            <div class="form-group my-3 txt">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" name="apellido" class="form-control">
+            </div>
+
+            <div class="form-group my-3 txt">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="text" name="telefono" class="form-control">
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="ocupacion" class="form-label my-3">Ocupacion</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="empresa" class="form-label">Empresa</label>
+                <input type="text" name="empresa" class="form-control">
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="domicilio_empresa" class="form-label">Domicilio de Empresa</label>
+                <input type="text" name="domicilio_empresa" class="form-control">
+            </div>
+            
+        </form>
+        <h1 class="txt_titulo1">Madre</h1>
         <form action="" class="form-client" >
             <div class="form-group txt">
                 <label for="nombre" class="form-label">Nombre</label>
@@ -53,71 +122,29 @@
                 <input type="text" name="apellido" class="form-control">
             </div>
             <div class="form-group my-3 txt">
-                <label for="ci" class="form-label">Cedula</label>
-                <input type="text" name="ci" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
-                <label for="email" class="form-label">Email</label>
-                <input type="text" name="email" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
                 <label for="telefono" class="form-label">Telefono</label>
                 <input type="text" name="telefono" class="form-control">
             </div>
             <div class="form-group my-3 txt">
-                <label for="ubicacion" class="form-label my-3">Ubicacion</label>
-                <select name="ubicacion" id="">
-                    <option value="San Cristobal">San Cristobal</option>
-                    <option value="San Cristobal">palmira</option>
-                    <option value="San Cristobal">caneyes</option>
-                    <option value="San Cristobal">barrio obrero</option>
-                </select>
+                <label for="ocupacion" class="form-label my-3">Ocupacion</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
             </div>
-            <div class="form-group txt">
-                <label for="fecha_nacimiento" class="form-label my-3">Fecha de Naciemiento</label>
-                <input type="date" name="fecha_nacimiento">
+            <div class="form-group my-3 txt">
+                <label for="empresa" class="form-label">Empresa</label>
+                <input type="text" name="empresa" class="form-control">
+            </div>
+            <div class="form-group my-3 txt">
+                <label for="domicilio_empresa" class="form-label">Domicilio de Empresa</label>
+                <input type="text" name="domicilio_empresa" class="form-control">
             </div>
         </form>
     </div>
-    <div class="col-md-4 card  box">
-        <h1 class="txt_titulo">Usuario</h1>
-        <form action="" class="form-client" >
-            <div class="form-group txt">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" name="nombre" class="form-control">
-            </div>
-               
-            <div class="form-group my-3 txt">
-                <label for="apellido" class="form-label">Apellido</label>
-                <input type="text" name="apellido" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
-                <label for="ci" class="form-label">Cedula</label>
-                <input type="text" name="ci" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
-                <label for="email" class="form-label">Email</label>
-                <input type="text" name="email" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
-                <label for="telefono" class="form-label">Telefono</label>
-                <input type="text" name="telefono" class="form-control">
-            </div>
-            <div class="form-group my-3 txt">
-                <label for="ubicacion" class="form-label my-3">Ubicacion</label>
-                <select name="ubicacion" id="">
-                    <option value="San Cristobal">San Cristobal</option>
-                    <option value="San Cristobal">palmira</option>
-                    <option value="San Cristobal">caneyes</option>
-                    <option value="San Cristobal">barrio obrero</option>
-                </select>
-            </div>
-            <div class="form-group txt">
-                <label for="fecha_nacimiento" class="form-label my-3">Fecha de Naciemiento</label>
-                <input type="date" name="fecha_nacimiento">
-            </div>
-        </form>
-    </div>
+  
     </div>
 </div>
 
