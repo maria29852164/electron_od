@@ -1,5 +1,6 @@
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
+import {enviroment} from "../../helper/enviroment";
 
 
 @Injectable({
@@ -10,6 +11,6 @@ export class AdminService{
 
     }
     getAdmins(){
-        return this.http.get("https://digimon-api.herokuapp.com/api/digimon")
+        return this.http.get(enviroment.host+'/api/admins')
     }
 }

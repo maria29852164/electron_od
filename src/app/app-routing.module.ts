@@ -18,7 +18,7 @@ const routes: Routes = [
 
   },
   {
-    path:'admin-detail',
+    path:'detail-admin/:id',
     component:AdminDetailComponent
   
   },
