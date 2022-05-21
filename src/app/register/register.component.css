@@ -7,10 +7,12 @@
 
 .txt_titulo{
     text-align: center;
+    color: #274156;
 }
 .txt_titulo1{
     text-align: center;
     margin-top:20px;
+    color: #274156;
 }
 .box{
     margin-top:50px;
@@ -22,4 +24,12 @@
     border-radius: 15px;
 
 }
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
+.boton :hover{
+    color: rgb(48, 165, 126);
+}

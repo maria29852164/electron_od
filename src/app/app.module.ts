@@ -13,6 +13,8 @@ import {AdminComponent} from "./admin/admin.component";
 import { AdminDetailComponent } from './admin-detail/admin-detail.component';
 import { DetailUserComponent } from './detail-user/detail-user.component';
 import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { RecuperarComponent } from './recuperar/recuperar.component';
 
 @NgModule({
   declarations: [
@@ -21,11 +23,17 @@ import { RegisterComponent } from './register/register.component';
     HeaderComponent,
       AdminComponent,
       AdminDetailComponent,
+
       DetailUserComponent,
-      RegisterComponent
+       RegisterComponent,
+       HomeComponent,
+       RecuperarComponent
+    
+
   ],
     imports: [
         AppRoutingModule,
+      
         BrowserModule,
         FlexModule,
         ExtendedModule,

@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 100px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 10px;
+    box-shadow: 4px 8px 18px #00000066;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}

@@ -1,10 +1,11 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
+import { HeaderComponent } from "../layouts/header/header.component";
 import { UserRoutingModule } from "./user-routing.module";
 import { UserComponent } from "./user.component";
 
 @NgModule({
-  declarations: [UserComponent],
+  declarations: [UserComponent, HeaderComponent],
   imports: [
     UserRoutingModule,
     UserComponent,
