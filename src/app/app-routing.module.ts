@@ -9,6 +9,7 @@ import {DetailUserComponent} from "./detail-user/detail-user.component";
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { RecuperarComponent } from './recuperar/recuperar.component';
+import { DetalleComponent } from './detalle/detalle.component';
 const routes: Routes = [
   {
     path:'user',
@@ -39,6 +40,10 @@ const routes: Routes = [
   {
     path: 'recuperar',
     component: RecuperarComponent
+  },
+  {
+    path: 'detalle',
+    component: DetalleComponent
   }
   
 ]

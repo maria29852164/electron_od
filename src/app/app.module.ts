@@ -15,6 +15,7 @@ import { DetailUserComponent } from './detail-user/detail-user.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { RecuperarComponent } from './recuperar/recuperar.component';
+import { DetalleComponent } from './detalle/detalle.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RecuperarComponent } from './recuperar/recuperar.component';
       DetailUserComponent,
        RegisterComponent,
        HomeComponent,
-       RecuperarComponent
+       RecuperarComponent,
+       DetalleComponent
     
 
   ],
