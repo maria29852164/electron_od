@@ -1,0 +1,20 @@
+.modelo{
+    margin: 50px;
+}
+.modal-body{
+    padding: 50px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.clase-1{
+    background-color: rgb(49, 81, 132);
+}
+.clase-2{
+    background-color: rgb(18, 150, 202);
+}
+.modal-content{
+    box-shadow: 4px 8px 18px #00000066;
+}
+
+    
