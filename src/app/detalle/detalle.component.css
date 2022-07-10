@@ -16,5 +16,13 @@
 .modal-content{
     box-shadow: 4px 8px 18px #00000066;
 }
+.row img{
+    height: 100px;
+}
 
+.row p{
+    padding-top: 20px;
+    padding-left: 90px;
+    
+}
     
