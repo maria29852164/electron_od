@@ -11,7 +11,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" >Save changes</button>
                   </div>
                 </div>
               </div>
@@ -21,14 +21,14 @@
                 <div class="modal-content">
                   <div class="modal-body clase-2">
                     <div class="row">
-                      <img src="../../assets/img/people-fill.svg" alt="" class="col">
+                      <img src="../../assets/img/people-fill.svg" alt="" class="col" >
                       <p class="col">Admins</p>
                     </div>
                     
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" [routerLink]="['/admins']">Save changes</button>
                   </div>
             </div>
          </div>
@@ -62,7 +62,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" [routerLink]="['/user']">Save changes</button>
               </div>
             </div>
           </div>
@@ -71,11 +71,14 @@
       <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-body clase-1">
-              <p>Pagos</p>
+              <div class="row">
+                <img src="../../assets/img/person-check-fill.svg" alt="" class="col">
+                <p class="col">Log in</p>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary" [routerLink]="['/home']">Save changes</button>
             </div>
           </div>
         </div>
@@ -84,7 +87,10 @@
     <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body clase-2">
-            <p>Pagos</p>
+            <div class="row">
+              <img src="../../assets/img/lock-fill.svg" alt="" class="col">
+              <p class="col">Permisos</p>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
